@@ -5,6 +5,7 @@ import cv2
 import numpy as np
 import pygame
 from ultralytics import YOLO
+import requests
 
 pygame.init()
 cap = cv2.VideoCapture(0)
@@ -13,14 +14,14 @@ current_dir = Path(__file__).parent
 selected_color_NoPPE = (220, 20, 60)
 selected_color_PPE = (20, 220, 60)
 
-glasses_model = YOLO(current_dir / "best67.pt")
+glasses_model = YOLO(current_dir / "best11.pt")
 glasses_model.overrides['verbose'] = False
 glasses_model.model.names = {0: "Sem EPI", 1: "Óculos EPI"}
 
 d_info = pygame.display.Info()
 screen_width, screen_height = d_info.current_w, d_info.current_h
 screen = pygame.display.set_mode((screen_width, screen_height))
-pygame.display.set_caption("DEPIA")
+pygame.display.set_caption("Argus IA")
 
 # Variáveis Infinitas
 start_time = None
@@ -81,7 +82,9 @@ config4 = pygame.image.load(current_dir / "12.png")
 config4 = pygame.transform.scale(config4, (screen_width, screen_height))
 
 alert_sound = pygame.mixer.Sound("alerta_epi.mp3")
+alert_sound2 = pygame.mixer.Sound("alerta_epi2.mp3")
 
+WLED_IP = "http://hydraws.local"
 
 def draw_circle(surface, center, radius):
     for angle in range(360):
@@ -249,6 +252,7 @@ while running:
                 if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
                     IniciarApertado = False
                     alert_sound.fadeout(100)
+                    alert_sound2.fadeout(100)
 
         elif 12 <= x <= 31 and 11 <= y <= 32:
             if info_clicked == False:
@@ -334,8 +338,11 @@ while running:
 
                 if elapsed_time > 0.5 and not pygame.mixer.get_busy() and audio_bool:
                     alert_sound.play()
+                    alert_sound2.play()
                     start_time = None
             else:
+                alert_sound.stop()
+                alert_sound2.stop()
                 start_time = None
 
             # Calcula o FPS usando pygame.time
