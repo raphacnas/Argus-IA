@@ -4,7 +4,14 @@
   <img src="https://github.com/raphacnas/Argus-IA/blob/main/ArgusLogo.png?raw=true" alt="Argus IA Logo" />
 </p>
 
-![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) 
+<p align="center">
+  <img src="https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
+  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
+  <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white" alt="PyTorch" />
+  <a href="http://makeapullrequest.com">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" />
+  </a>
+</p>
 
 A **Argus IA** é uma solução de detecção de óculos de EPI (Equipamento de Proteção Individual) desenvolvida para automatizar a fiscalização do uso correto desses equipamentos em competições da **FIRST Robotics Competition (FRC)**. Utilizando visão computacional e uma interface amigável, a Argus IA identifica em tempo real se os competidores estão utilizando óculos de proteção e emite alertas sonoros em caso de irregularidades.
 
