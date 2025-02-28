@@ -34,11 +34,11 @@ Além de sua função principal, o software também permite que o usuário:
 - Ligue/Desligue o índice de FPS
 - Ligue/Desligue o alarme
 - Modifique a cor da caixa de detecção das classes
+- Entre no instagram da equipe responsável pelo desenvolvimento do app e acesse a atual página da temporada de FRC.
 - Acesse um menu de informações na tela de detecção da IA, contendo:
     - Quantidade de detecções da classe Sem EPI
     - Quantidade de detecções da classe Óculos de EPI
     - Quantidade de detecções totais
-- Entre no instagram da equipe responsável pelo desenvolvimento do app e acesse a atual página da temporada de FRC.
 
 ---
 
