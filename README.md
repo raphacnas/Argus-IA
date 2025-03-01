@@ -20,9 +20,28 @@ A **Argus IA** é uma solução de detecção de óculos de EPI (Equipamento de 
 ## 🚀Instrução de Instalação
 
 Para a instalação do aplicativo, basta acessar a página release deste repositório, baixar o arquivo anexado e extraí-lo. 
-> Release: https://github.com/raphacnas/Argus-IA/releases/tag/v1.0.0. 
 
-Em função das aplicações já presentes no arquivo, **não há a necessidade de instalações prévias para o funcionamento da IA**. 
+> Release: https://github.com/raphacnas/Argus-IA/releases
+
+Em função das aplicações já presentes no arquivo, **não há a necessidade de instalações prévias para o funcionamento da IA**. <br><br><br>
+
+
+### Requisitos Mínimos
+- Sistema Operacional: Windows 10, macOS 10.14 ou superior, ou uma distribuição Linux (Ubuntu 18.04 ou superior).
+- Processador: Intel Core i7 ou equivalente.
+- Memória RAM: 16 GB.
+- GPU: NVIDIA GTX 1050 ou equivalente.
+- Armazenamento: 2 GB de espaço livre em disco. 
+- Câmera: Câmera USB ou integrada com suporte a captura de vídeo.
+
+### Requisitos Recomendados
+
+- Sistema Operacional: Windows 11, macOS 12 ou superior, ou Linux (Ubuntu 22.04 ou superior).
+- Processador: Intel Core i9 ou AMD Ryzen 9.
+- Memória RAM: 16 GB ou mais.
+- GPU: NVIDIA RTX 3060 ou superior (melhor suporte para CUDA).
+- Armazenamento: SSD NVMe com pelo menos 4 GB de espaço livre.
+- Câmera: Câmera USB de alta qualidade (1080p ou superior).
 
 ---
 
