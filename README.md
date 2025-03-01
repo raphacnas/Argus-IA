@@ -25,6 +25,9 @@ Para a instalação do aplicativo, basta acessar a página release deste reposit
 
 Em função das aplicações já presentes no arquivo, **não há a necessidade de instalações prévias para o funcionamento da IA**. <br><br><br>
 
+---
+
+## 💻 Requisitos Computacionais
 
 ### Requisitos Mínimos
 - Sistema Operacional: Windows 10, macOS 10.14 ou superior, ou uma distribuição Linux (Ubuntu 18.04 ou superior).
