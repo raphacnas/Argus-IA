@@ -25,7 +25,7 @@ Ambos os arquivos se encontram no RELEASE deste reppositório.
 
 > Release: https://github.com/raphacnas/Argus-IA/releases<br><br>
 
-_Observação:_ Durante testes do aplicativo, observou-se que há uma **possibilidade** de, em alguns sistemas de segurança, ocorrer a mal interpretar do software, tendo-o como um tipo de vírus, muito provavelmente em função de seu código que usa do OpenCV para acessar a câmera ao apertar no botão "Iniciar". Portanto, caso o aplicativo seja deletado, basta acessar o Windows Security, ir na aba de "Proteção contra vírus e ameaças", abrir o histórico de ameaças e permitir o aplicativo da Argus IA
+***Observação:*** Durante testes do aplicativo, observou-se que há uma **possibilidade** de, em alguns sistemas de segurança, ocorrer a mal interpretar do software, tendo-o como um tipo de vírus, muito provavelmente em função de seu código que usa do OpenCV para acessar a câmera ao apertar no botão "Iniciar". Portanto, caso o aplicativo seja deletado, basta acessar o Windows Security, ir na aba de "Proteção contra vírus e ameaças", abrir o histórico de ameaças e permitir o aplicativo da Argus IA
 
 ---
 
