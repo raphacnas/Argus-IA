@@ -19,11 +19,13 @@ A **Argus IA** é uma solução de detecção de óculos de EPI (Equipamento de 
 
 ## 🚀Instrução de Instalação
 
-Para a instalação do aplicativo, basta acessar a página release deste repositório, baixar o arquivo anexado e extraí-lo. 
+No que tange ao download do aplicativo, há dois tipos de instalação possíveis: um que funcionará unicamente na CPU, e outro que, caso seu computador tenha um processador que suporte [CUDA](https://blog.nvidia.com.br/blog/o-que-e-cuda/), funcionará na GPU.
 
-> Release: https://github.com/raphacnas/Argus-IA/releases
+Ambos os arquivos se encontram no RELEASE deste reppositório.
 
-Em função das aplicações já presentes no arquivo, **não há a necessidade de instalações prévias para o funcionamento da IA**. <br><br>
+> Release: https://github.com/raphacnas/Argus-IA/releases<br><br>
+
+_Observação:_ Durante testes do aplicativo, observou-se que há uma **possibilidade** de, em alguns sistemas de segurança, ocorrer a mal interpretar do software, tendo-o como um tipo de vírus, muito provavelmente em função de seu código que usa do OpenCV para acessar a câmera ao apertar no botão "Iniciar". Portanto, caso o aplicativo seja deletado, basta acessar o Windows Security, ir na aba de "Proteção contra vírus e ameaças", abrir o histórico de ameaças e permitir o aplicativo da Argus IA
 
 ---
 
